@@ -1,0 +1,114 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  width: 20rem;
+  min-height: 15rem;
+  border-radius: 0.3rem;
+  border-bottom: 0.5rem solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26);
+}
+
+.taskComplete {
+  background: linear-gradient(90deg, #a8ff78, #78ffd6);
+}
+
+.cardBorderColorWorked {
+  border-image: linear-gradient(90deg, #a9f1df, #ffbbbb);
+  border-image-slice: 1;
+}
+
+.cardBorderColorFamily {
+  border-image: linear-gradient(90deg, #ea8d8d, #a890fe);
+  border-image-slice: 1;
+}
+
+.cardBorderColorSocial {
+  border-image: linear-gradient(90deg, #f1eab9, #cd295a);
+  border-image-slice: 1;
+}
+
+.cardBorderColorStudy {
+  border-image: linear-gradient(90deg, #38adae, #cd295a);
+  border-image-slice: 1;
+}
+
+.cardBorderColorOthers {
+  border-image: linear-gradient(90deg, #d8b5ff, #1eae98);
+  border-image-slice: 1;
+}
+
+.groupCategory {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.cardCategory {
+  font-weight: 300;
+}
+
+.categoryIcon {
+  background-color: #78ffd6;
+  padding: 0.3rem;
+  border-radius: 50%;
+}
+
+.iconWorked {
+  background: linear-gradient(90deg, #a9f1df, #ffbbbb);
+}
+
+.iconFamily {
+  background: linear-gradient(90deg, #ea8d8d, #a890fe);
+}
+
+.iconSocial {
+  background: linear-gradient(90deg, #f1eab9, #cd295a);
+}
+
+.iconStudy {
+  background: linear-gradient(90deg, #38adae, #cd295a);
+}
+
+.iconOthers {
+  background: linear-gradient(90deg, #d8b5ff, #1eae98);
+}
+
+.cardTitle {
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cardDescription {
+  font-weight: 200;
+}
+
+.cardFooter {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnCard {
+  background: rgba(255, 255, 255, 0.204);
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0rem;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26);
+}
+
+.packBtnCard {
+  position: absolute;
+  right: 2.5rem;
+}
