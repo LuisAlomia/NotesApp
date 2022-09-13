@@ -1,4 +1,4 @@
-# eComerce
+# Notes App
 
 Con este proyecto se busca practicar el despliegue o consumo de información en el **Front-End** mediante un CRUD, haciendo uso de una rest-API creada en **Node JS**
 
